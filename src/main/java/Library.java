@@ -28,4 +28,8 @@ public class Library {
             this.stock.add(book);
         }
     }
+
+    public Book removeFromStock(){
+        return this.stock.remove(0);
+    }
 }
